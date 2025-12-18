@@ -1,18 +1,13 @@
-# cắt và thay dổi kích thước ảnh sử dụng OpenCV
-import cv2
+# Cắt và thay đổi kích thước ảnh sử dụng PIL
+from PIL import Image
+import os
 
-img = cv2.imread('../input.jpg')
+script_dir = os.path.dirname(__file__)
+img_path = os.path.join(script_dir, '..', 'input.jpg')
 
-# thay đổi kích thước
-(h, w, d) = img.shape
+img = Image.open(img_path)
+resized_img = img.resize((600, 500))
 
-# tính tỷ lệ mới và kích thước mới
-r = 300.0 / w 
-dim = (300, int(h * r))
+resized_img.save('resized_image_PIL.jpg')
 
-resized = cv2.resize(img, dim)
-cv2.imwrite('resized_image.jpg', resized)
-
-cv2.imshow('Resized Image', resized)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+resized_img.show()
