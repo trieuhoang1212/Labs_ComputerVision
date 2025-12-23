@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread(r"Chuong1\Cau1\anh_mau.jpg")  
+img = cv2.imread(r"Chuong1/Cau1/anh_mau.jpg")  
 
 if img is None:
     print("Không đọc được ảnh!")
