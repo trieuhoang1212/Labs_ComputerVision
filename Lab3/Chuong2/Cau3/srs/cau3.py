@@ -1,0 +1,1 @@
+# ÁP DỤNG CANNY CHO CÁC LOẠI ẢNH KHÁC NHAU
