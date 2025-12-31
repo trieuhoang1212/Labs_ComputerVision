@@ -1,0 +1,1 @@
+Chuẩn bị một tập hợp các hình ảnh, bao gồm các hình ảnh cặp đôi tương tự nhau (ví dụ: cùng một đối tượng với các góc độ khác nhau, các mức độ nhiễu khác nhau) và các hình ảnh cặp không tương tự.
