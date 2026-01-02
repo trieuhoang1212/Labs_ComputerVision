@@ -1,1 +1,0 @@
-# XÂY DỰNG ỨNG DỤNG TÌM KIẾM HÌNH ẢNH DỰA TRÊN HÀM BĂM WAVELET
