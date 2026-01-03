@@ -34,8 +34,8 @@ print("🔹 Hash ảnh 3:", hash3)
 d12 = hamming_distance(hash1, hash2)
 d13 = hamming_distance(hash1, hash3)
 
-print(f"\n📏 Khoảng cách Hamming (Ảnh 1–2): {d12}")
-print(f"📏 Khoảng cách Hamming (Ảnh 1–3): {d13}")
+print(f"\n Khoảng cách Hamming (Ảnh 1–2): {d12}")
+print(f" Khoảng cách Hamming (Ảnh 1–3): {d13}")
 
 # 🔹 HIỂN THỊ ẢNH
 plt.figure(figsize=(12,4))
