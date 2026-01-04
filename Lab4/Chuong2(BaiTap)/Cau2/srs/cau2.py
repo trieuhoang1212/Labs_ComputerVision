@@ -1,1 +1,0 @@
-# TRÍCH XUẤT WAVELET ĐẶT BIỆT
